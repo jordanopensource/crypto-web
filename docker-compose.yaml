@@ -1,0 +1,7 @@
+services:
+    crypto-josa:
+        container_name: crypto-josa
+        build: .
+        image: crypto-josa:latest
+        ports:
+            - 8080:80
